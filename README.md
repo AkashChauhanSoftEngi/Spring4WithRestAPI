@@ -17,7 +17,7 @@
 			<version>2.0.0</version>
 		</dependency>
 ```
-* used @RestController
+* used @RestController (org.springframework.web.bind.annotation.RestController)
 * used @RequestMapping(value = "/get/students", method = RequestMethod.GET)
 * used @ResponseBody
 * used @PathVariable("studentName") 
