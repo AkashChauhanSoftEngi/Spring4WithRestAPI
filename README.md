@@ -24,6 +24,13 @@
 * used ResponseEntity<String>
 * used @ExceptionHandler(Exception.class)
 
+* Types to catch incoming data from the the request
+  - @PathVariable {get data from get request only}
+  - @RequestBody {get data from the request}
+  - @RequestParam {get parameter from incoming request}
+  - HttpServletRequest {through session, you can get the value}
+  - @ModelAttribute {for further communication with jsp and all}
+
 > **###2. To Run this project locally**
 * $ git clone https://github.com/AkashChauhanSoftEngi/Spring4Rest
 * $ mvn tomcat7:run
